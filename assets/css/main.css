@@ -2152,6 +2152,19 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.use_hover{
+			-webkit-filter: blur(0);
+			filter: blur(0);
+			opacity: 1;
+			-webkit-transition: .2s ease-in-out;
+			transition: .2s ease-in-out;
+		}
+		.image.use_hover:hover {
+			opacity: .8;
+			-webkit-filter: blur(3px);
+			filter: blur(3px);
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
